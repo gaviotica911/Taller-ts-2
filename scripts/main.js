@@ -39,6 +39,7 @@ function promedio(series) {
         var curso = series[index];
         temporadas += curso.temporadas;
     }
+    temporadas = temporadas / series.length;
     return temporadas;
 }
 function mostrarPromedio(series) {

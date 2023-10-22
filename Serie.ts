@@ -1,7 +1,7 @@
 
 
 
-export class Serie{ //expor es para que esta clase pueda ser visible desde otros archivos
+export class Serie{ 
     id: number;
     titulo: string;
     plataforma: string;
