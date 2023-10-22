@@ -8,10 +8,8 @@
     
     <title>Series</title>
     <script type="module" src='/scripts/main.js'></script>
-
 </head>
 <body>
-
     <nav class="navbar bg-body-tertiary">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
@@ -19,32 +17,30 @@
             Tv Series
           </a>
         </div>
-      </nav>
-      <br>
-      <br>
+    </nav>
+    <br>
+    <br>
 
+    <div class="d-flex" style="padding: 10px;"> 
+        <table class="table table-striped m-4" id="series" style="max-width: 50%;">
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Nombre</th>
+                    <th scope="col">Plataforma</th>
+                    <th scope="col">Temporadas</th>
+                </tr>
+            </thead>
+        </table>
 
-
-
-
-    <table class="table table-striped" id="series" style="max-width: 50%;">
-        <thead>
-          <tr>
-            <th scope="col">#</th>
-            <th scope="col">Nombre</th>
-            <th scope="col">Plataforma</th>
-            <th scope="col">Temporadas</th>
-          </tr>
-        </thead>
-        
-      </table>
-    <p class="table" id="promedio"></p>
-
-
-
-
-
-
-    
+        <div class="card" style="width: 18rem;" id="cardS">
+            <img src="https://em-content.zobj.net/source/apple/354/film-frames_1f39e-fe0f.png" class="card-img-top" alt="Imagen de la película">
+            <div class="card-body">
+                <h5 class="card-title">Título de la película</h5>
+                <p class="card-text">Descripción de la película.</p>
+                <a class="more">Ver más</a>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
